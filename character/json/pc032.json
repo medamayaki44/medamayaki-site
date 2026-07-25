@@ -1,0 +1,85 @@
+{
+  "id": "032",
+  "name": "石堂 光希",
+  "kana": "いしどう みつき",
+  "romaji": "Ishido Mitsuki",
+
+  "color": "191, 114, 0",
+
+  "image": "img/032.png",
+
+  "basic": {
+    "年齢": "XX歳",
+    "性別": "X性",
+    "職業": "xxx",
+    "出身": "xxx",
+    "誕生日": "mm月dd日",
+    "身長": "xxxcm",
+    "一人称": "xxx",
+    "好きなもの": "xxx、xxx",
+    "嫌いなもの": "xxx、xxx"
+  },
+
+  "stats": {
+    "STR": 1,
+    "CON": 1,
+    "POW": 1,
+    "DEX": 1,
+    "APP": 1,
+    "SIZ": 1,
+    "INT": 1,
+    "EDU": 1
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 4
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 4
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 4
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 4
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 4
+    }
+  ],
+
+  "scenarios": [
+    "xxx"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://character-sheets.appspot.com/insane/edit.html?key=ahVzfmNoYXJhY3Rlci1zaGVldHMtbXByFwsSDUNoYXJhY3RlckRhdGEYjc3z0wMM"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/MyIllustListPcV.jsp?ID=1486444&KWD=%E8%9B%8D%E5%AD%90"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

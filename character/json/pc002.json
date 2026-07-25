@@ -1,0 +1,85 @@
+{
+  "id": "002",
+  "name": "芦崎 向葵",
+  "kana": "あしざき ひまり",
+  "romaji": "Ashizaki Himari",  
+
+  "color": "217, 237, 85",
+
+  "image": "img/002.png",
+
+  "basic": {
+    "年齢": "25歳",
+    "性別": "女性",
+    "職業": "雑誌記者",
+    "出身": "日本",
+    "誕生日": "4月17日",
+    "身長": "158cm",
+    "一人称": "私",
+    "好きなもの": "かわいいもの",
+    "嫌いなもの": "人間"
+  },
+
+  "stats": {
+    "STR": 9,
+    "CON": 12,
+    "POW": 15,
+    "DEX": 10,
+    "APP": 18,
+    "SIZ": 10,
+    "INT": 11,
+    "EDU": 15
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 6
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 3
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 4
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 3
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 5
+    }
+  ],
+
+  "scenarios": [
+    "海も枯れるまで（HO1）"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14415598"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/MyIllustListPcV.jsp?ID=1486444&KWD=%E6%B5%B7%E6%9E%AF%E3%82%8C"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "033",
+  "name": "浅葱 未來",
+  "kana": "あさぎ みく",
+  "romaji": "Asagi Miku",
+
+  "color": "135, 90, 214",
+
+  "image": "img/033.png",
+
+  "basic": {
+    "年齢": "XX歳",
+    "性別": "X性",
+    "職業": "xxx",
+    "出身": "xxx",
+    "誕生日": "mm月dd日",
+    "身長": "xxxcm",
+    "一人称": "xxx",
+    "好きなもの": "xxx、xxx",
+    "嫌いなもの": "xxx、xxx"
+  },
+
+  "stats": {
+    "STR": 1,
+    "CON": 1,
+    "POW": 1,
+    "DEX": 1,
+    "APP": 1,
+    "SIZ": 1,
+    "INT": 1,
+    "EDU": 1
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 4
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 4
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 4
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 4
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 4
+    }
+  ],
+
+  "scenarios": [
+    "xxx"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14886521"
+    },
+    {
+      "name": "ポイピク",
+      "url": ""
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

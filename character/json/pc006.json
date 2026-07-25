@@ -1,0 +1,85 @@
+{
+  "id": "006",
+  "name": "小鷹 裕次郎",
+  "kana": "こだか ゆうじろう",
+  "romaji": "Kodaka Yujiro",
+
+  "color": "255, 87, 34",
+
+  "image": "img/006.png",
+
+  "basic": {
+    "年齢": "20歳",
+    "性別": "男性",
+    "職業": "大学生",
+    "出身": "日本",
+    "誕生日": "6月11日",
+    "身長": "165cm",
+    "一人称": "俺",
+    "好きなもの": "すずめくん",
+    "嫌いなもの": "なし"
+  },
+
+  "stats": {
+    "STR": 10,
+    "CON": 6,
+    "POW": 10,
+    "DEX": 9,
+    "APP": 14,
+    "SIZ": 11,
+    "INT": 17,
+    "EDU": 10
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 2
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 3
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 1
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 1
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 6
+    }
+  ],
+
+  "scenarios": [
+    "同居人"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14415677"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/MyIllustListPcV.jsp?ID=1486444&KWD=%E5%90%8C%E5%B1%85%E4%BA%BA"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

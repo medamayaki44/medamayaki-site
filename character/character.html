@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>キャラクター詳細</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="character.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="../src/img/logo.png">
+</head>
+
+<body>
+
+<main class="container">
+
+  <!-- タブ -->
+
+  <div class="char-nav">
+    <div class="nav-tab" id="current-id">
+      ★
+    </div>
+
+    <a class="nav-tab" id="prev-id">前</a>
+    <a class="nav-tab" href="../pc-list.html">一覧に戻る</a>
+    <a class="nav-tab" id="next-id">後</a>
+  </div>
+
+  <!-- 上部 -->
+  <div class="hero">
+    
+    <div class="char-name">
+      <!-- 番号 -->
+      <div class="bg-number">
+        <span id="pc-id" class="pc-id"></span>
+      </div>
+      <!-- 名前 -->
+      <div class="char-name">
+        <h1 id="pc-name"></h1>
+        <div id="pc-kana" class="pc-kana"></div>
+        <div id="pc-romaji" class="pc-romaji"></div>
+      </div>
+      
+
+    </div>
+
+    <!-- 立ち絵 -->
+    <div class="hero-image">
+      <div class="image-frame">
+        <img id="pc-image" alt="立ち絵">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- カード -->
+  <div class="grid">
+
+    <div class="card" id="basic-info"></div>
+
+    <div class="card chart-card">
+      <h3>能力値</h3>
+      <canvas id="radarChart"></canvas>
+    </div>
+
+    <div class="card" id="personality"></div>
+
+    <div class="card" id="scenario-list"></div>
+
+  </div>
+
+  <!-- 外部リンク -->
+  <div class="links" id="pc-links"></div>
+
+</main>
+
+<script src="character.js"></script>
+
+</body>
+</html>

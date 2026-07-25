@@ -1,0 +1,85 @@
+{
+  "id": "092",
+  "name": "羅北",
+  "kana": "らほく",
+  "romaji": "Rahoku",
+
+  "color": "104, 105, 155",
+
+  "image": "img/092.png",
+
+  "basic": {
+    "年齢": "XX歳",
+    "性別": "X性",
+    "職業": "xxx",
+    "出身": "xxx",
+    "誕生日": "mm月dd日",
+    "身長": "xxxcm",
+    "一人称": "xxx",
+    "好きなもの": "xxx、xxx",
+    "嫌いなもの": "xxx、xxx"
+  },
+
+  "stats": {
+    "STR": 1,
+    "CON": 1,
+    "POW": 1,
+    "DEX": 1,
+    "APP": 1,
+    "SIZ": 1,
+    "INT": 1,
+    "EDU": 1
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 4
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 4
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 4
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 4
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 4
+    }
+  ],
+
+  "scenarios": [
+    "xxx"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "#"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/IllustListPcV.jsp?ID=1486444&KWD=%E4%B8%8D%E5%B9%B8%E5%A0%82"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "136",
+  "name": "セオドア・リード",
+  "kana": "せおどあ・りーど",
+  "romaji": "Theodore ReedC",
+
+  "color": "204, 170, 0",
+
+  "image": "img/136.png",
+
+  "basic": {
+    "年齢": "22歳",
+    "性別": "男性",
+    "職業": "FBI特別捜査官",
+    "出身": "アメリカ",
+    "誕生日": "12月15日",
+    "身長": "173cm",
+    "一人称": "俺",
+    "好きなもの": "ポップコーン(コンソメ味)、スケートボード",
+    "嫌いなもの": "飛ぶ乗り物"
+  },
+
+  "stats": {
+   "STR": 10,
+    "CON": 12,
+    "POW": 12,
+    "DEX": 11,
+    "APP": 14,
+    "SIZ": 12,
+    "INT": 17,
+    "EDU": 17
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 3
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 4
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 5
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 5
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 3
+    }
+  ],
+
+  "scenarios": [
+    "Paranormal Crime"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14431402"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/IllustListPcV.jsp?ID=1486444&KWD=%E3%83%9D%E3%83%97%E3%82%B3%E7%8F%AD"
+    },
+    {
+      "name": "Fusetter",
+      "url": "https://fusetter.com/mypage?prd=135790"
+    }
+  ]
+}

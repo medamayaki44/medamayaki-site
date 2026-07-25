@@ -1,0 +1,85 @@
+{
+  "id": "135",
+  "name": "杜若 迅",
+  "kana": "かきつばた じん",
+  "romaji": "Kakitsubata Jin",
+
+  "color": "225, 153, 255",
+
+  "image": "img/135.png",
+
+  "basic": {
+    "年齢": "19歳",
+    "性別": "男性",
+    "職業": "怪事庁職員",
+    "出身": "日本",
+    "誕生日": "10月12日",
+    "身長": "173cm",
+    "一人称": "俺",
+    "好きなもの": "肉、身体を動かすこと",
+    "嫌いなもの": "野菜、熱い飲み物"
+  },
+
+  "stats": {
+   "STR": 13,
+    "CON": 18,
+    "POW": 11,
+    "DEX": 13,
+    "APP": 14,
+    "SIZ": 12,
+    "INT": 12,
+    "EDU": 14
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 5
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 7
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 5
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 6
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 4
+    }
+  ],
+
+  "scenarios": [
+    "東京ゴーストマティカ"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14430717"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/IllustListPcV.jsp?ID=1486444&KWD=%E3%83%88%E3%82%B4%E3%82%B9%E3%83%9E"
+    },
+      {
+      "name": "Fusetter",
+      "url": "https://fusetter.com/mypage?prd=135783"
+    }
+  ]
+}

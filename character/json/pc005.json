@@ -1,0 +1,85 @@
+{
+  "id": "005",
+  "name": "雪",
+  "kana": "せつ",
+  "romaji": "Setsu",
+
+  "color": "102, 102, 204",
+
+  "image": "img/005.png",
+
+  "basic": {
+    "年齢": "19歳",
+    "性別": "女性",
+    "職業": "怪盗",
+    "出身": "日本",
+    "誕生日": "12月9日",
+    "身長": "161cm",
+    "一人称": "わたし",
+    "好きなもの": "お金",
+    "嫌いなもの": "お金持ち"
+  },
+
+  "stats": {
+    "STR": 12,
+    "CON": 15,
+    "POW": 15,
+    "DEX": 7,
+    "APP": 14,
+    "SIZ": 11,
+    "INT": 15,
+    "EDU": 13
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 6
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 5
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 5
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 4
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 2
+    }
+  ],
+
+  "scenarios": [
+    "大正浪漫Ｘ２Ｕ -怪盗×探偵-（PC1 怪盗）"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14415534"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/MyIllustListPcV.jsp?ID=1486444&KWD=%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

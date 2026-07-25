@@ -1,0 +1,85 @@
+{
+  "id": "133",
+  "name": "天城 昴",
+  "kana": "あまぎ すばる",
+  "romaji": "Amagi Subaru",
+
+  "color": "255, 182, 193",
+
+  "image": "img/133.png",
+
+  "basic": {
+    "年齢": "26歳",
+    "性別": "男性",
+    "職業": "科学館スタッフ",
+    "出身": "日本",
+    "誕生日": "5月14日",
+    "身長": "178cm",
+    "一人称": "ボク",
+    "好きなもの": "",
+    "嫌いなもの": ""
+  },
+
+  "stats": {
+   "STR": 5,
+    "CON": 10,
+    "POW": 9,
+    "DEX": 3,
+    "APP": 14,
+    "SIZ": 13,
+    "INT": 8,
+    "EDU": 9
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 6
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 5
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 6
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 6
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 5
+    }
+  ],
+
+  "scenarios": [
+    "ROSETTA2023"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://charasheet.vampire-blood.net/5512062"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/IllustListPcV.jsp?ID=1486444&KWD=%E3%82%8D%E3%81%9C%E3%81%9F"
+    },
+    {
+      "name": "Fusetter",
+      "url": ""
+    }
+  ]
+}

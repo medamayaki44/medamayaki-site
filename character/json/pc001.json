@@ -1,0 +1,87 @@
+{
+  "id": "001",
+  "name": "柏樹 蓮",
+  "kana": "かしわぎ れん",
+  "romaji": "Kashiwagi Ren",
+
+  "color": "204, 102, 0",
+
+  "image": "img/001.png",
+
+  "basic": {
+    "年齢": "32歳",
+    "性別": "男性",
+    "職業": "警察官",
+    "出身": "日本",
+    "誕生日": "1月28日",
+    "身長": "174cm",
+    "一人称": "僕",
+    "好きなもの": "不真面目に生きること",
+    "嫌いなもの": "真面目に生きること"
+  },
+
+  "stats": {
+    "STR": 11,
+    "CON": 9,
+    "POW": 12,
+    "DEX": 8,
+    "APP": 13,
+    "SIZ": 12,
+    "INT": 17,
+    "EDU": 14
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 3
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 6
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 5
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 4
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 3
+    }
+  ],
+
+  "scenarios": [
+    "庭師は何を口遊む（HO2）",
+    "君の手料理は名状しがたき何か。",
+    "嗤う人間師"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14415249"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/IllustListPcV.jsp?ID=1486444&KWD=%E6%96%8E%E7%8F%AD"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}

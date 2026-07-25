@@ -1,0 +1,85 @@
+{
+  "id": "004",
+  "name": "加賀宮 陽菜子",
+  "kana": "かがみや ひなこ",
+  "romaji": "Kagamiya Hinako",
+
+  "color": "255, 126, 117",
+
+  "image": "img/004.png",
+
+  "basic": {
+    "年齢": "15歳",
+    "性別": "女性",
+    "職業": "女学生",
+    "出身": "日本",
+    "誕生日": "6月26日",
+    "身長": "148cm",
+    "一人称": "わたくし",
+    "好きなもの": "家族、ひまわり",
+    "嫌いなもの": "怖いもの"
+  },
+
+  "stats": {
+    "STR": 10,
+    "CON": 9,
+    "POW": 14,
+    "DEX": 12,
+    "APP": 16,
+    "SIZ": 10,
+    "INT": 12,
+    "EDU": 10
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 5
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 4
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 2
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 1
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 5
+    }
+  ],
+
+  "scenarios": [
+    "大正浪漫Ｘ２Ｕ -令嬢×使用人-（PC1 令嬢）"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://iachara.com/view/14415716"
+    },
+    {
+      "name": "ポイピク",
+      "url": "https://poipiku.com/MyIllustListPcV.jsp?ID=1486444&KWD=%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB"
+    },
+      {
+      "name": "Fusetter",
+      "url": "#"
+    }
+  ]
+}
