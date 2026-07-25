@@ -1,0 +1,85 @@
+{
+  "id": "137",
+  "name": "壺井 泰二郎",
+  "kana": "つぼい たいじろう",
+  "romaji": "Tsuboi Taijiro",
+
+  "color": "187, 85, 97",
+
+  "image": "img/xxx.png",
+
+  "basic": {
+    "年齢": "31歳",
+    "性別": "男性",
+    "職業": "刑事",
+    "出身": "日本",
+    "誕生日": "4月13日",
+    "身長": "180cm",
+    "一人称": "私",
+    "好きなもの": "ジャンクフード",
+    "嫌いなもの": "ボードゲーム"
+  },
+
+  "stats": {
+    "推理力": 15,
+    "パッション": 10,
+    "対人力": 13,
+    "忍耐力": 20,
+    "顔面力": 10,
+    "体格": 15,
+    "天然": 3,
+    "動物からのなつかれ度": 1
+  },
+
+  "personality": [
+    {
+      "name": "正義感",
+      "left": "強い",
+      "right": "弱い",
+      "value": 2
+    },
+    {
+      "name": "コミュ力",
+      "left": "高い",
+      "right": "低い",
+      "value": 5
+    },
+    {
+      "name": "発言量",
+      "left": "多い",
+      "right": "少ない",
+      "value": 4
+    },
+    {
+      "name": "表情筋",
+      "left": "豊か",
+      "right": "無表情",
+      "value": 6
+    },
+    {
+      "name": "嘘",
+      "left": "上手い",
+      "right": "下手",
+      "value": 3
+    }
+  ],
+
+  "scenarios": [
+    "ここに堕天は完成される"
+  ],
+
+  "links": [
+    {
+      "name": "キャラシ",
+      "url": "https://character-sheets.appspot.com/2s/edit.html?key=ahVzfmNoYXJhY3Rlci1zaGVldHMtbXByGgsSDUNoYXJhY3RlckRhdGEYgIDg-8b4rAoM"
+    },
+    {
+      "name": "ポイピク",
+      "url": ""
+    },
+      {
+      "name": "Fusetter",
+      "url": ""
+    }
+  ]
+}
