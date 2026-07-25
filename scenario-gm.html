@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HONOKA TRPG's</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="src/img/logo.png">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ハンバーガーボタン -->
+  <button class="menu-btn" id="menuBtn">☰</button>
+  
+  <!-- 左サイドバー -->
+  <aside class="sidebar" id="sidebar">
+    <h1 class="site-title">HONOKA TRPG's</h1>
+    <nav>
+      <ul>
+        <a href="index.html">トップ</a>
+        <a href="favorite.html">プロフィール詳細</a>
+        <a href="session-style.html">セッションスタイル</a>
+        <a href="landmine.html">地雷チェック</a>
+        <a href="scenario-played.html">遊んだシナリオ</a>
+        <a href="scenario-desired.html">行きたいシナリオ</a>
+        <a href="scenario-gm.html">GM可能シナリオ</a>
+        <a href="pc-list.html">PC一覧</a>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 背景オーバーレイ -->
+  <div class="overlay" id="overlay"></div>
+
+
+  <main class="main">
+    <h2>GM可能シナリオ一覧</h2>
+
+    <label>
+    システム：
+     <select id="filter-select">
+        <option value="">すべて</option>
+     </select>
+   </label>
+
+    <table id="data-table" border="0">
+     <thead></thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="system-tabs"></div>
+    <div id="scenario-container"></div>
+  
+  </main>
+</div>
+
+<script type="module" src="./js/gmScenario.js"></script>
+<script src="js/menu.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HONOKA TRPG's</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lamdmine.css">
+  <link rel="icon" href="src/img/logo.png">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ハンバーガーボタン -->
+  <button class="menu-btn" id="menuBtn">☰</button>
+  
+  <!-- 左サイドバー -->
+  <aside class="sidebar" id="sidebar">
+    <h1 class="site-title">HONOKA TRPG's</h1>
+    <nav>
+      <ul>
+        <a href="index.html">トップ</a>
+        <a href="favorite.html">プロフィール詳細</a>
+        <a href="session-style.html">セッションスタイル</a>
+        <a href="landmine.html">地雷チェック</a>
+        <a href="scenario-played.html">遊んだシナリオ</a>
+        <a href="scenario-desired.html">行きたいシナリオ</a>
+        <!--<a href="scenario-gm.html">GM可能シナリオ</a>-->
+        <a href="pc-list.html">PC一覧</a>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 背景オーバーレイ -->
+<div class="overlay" id="overlay"></div>
+
+  <!-- メイン -->
+<main class="main">
+
+  <div class="tab-wrap">
+   <input type="radio" id="tab1" name="tab" checked>
+     <label for="tab1" class="tab">
+       地雷チェック
+     </label>
+
+   <input type="radio" id="tab2" name="tab">
+     <label for="tab2" class="tab">
+       パラメーター
+     </label>
+
+<!-- --------1つ目-------------------------- -->
+   <div class="tab-content content1">
+     <h2>細かすぎる地雷チェックシート</h2>
+     <p>
+
+      <div class="check-title">PCにふりかかる項目</div>
+      <div class="check-column">ロスト系</div>
+      <p class="koumoku">
+      □PCの確定ロスト<br>
+      □途中ロスト<br>
+      □助かる人数が限られている<br>
+      □死に戻りまたはループ<br>
+      □永久ロストの可能性<br>
+      □出目により死ぬ<br>
+      □デストラップ<br>
+      □入れ替わり/成り代わり<br>
+      □他人(PC)に殺生与奪の権利を握られる<br>
+      □四肢欠損や五感の損失<br>
+      <font class="sankaku">△自己犠牲</font><font class="hosoku"> :最終的に助けられるなら…まあ……</font><br>
+      <font class="maru">◎実は死んでいる/人外</font><font class="hosoku"> :だいすき</font><br>
+      □余命付与<br>
+      </p>
+
+      <div class="check-column">設定</div>
+      <p class="koumoku">
+      □PCの犯罪行為の強制<br>
+      □犯罪ではないが倫理観のない行為の強制<br>
+      □シナリオ中付与される設定<br>
+      □感情の指定<br>
+      □過去設定の指定<br>
+      □性別や年齢などの設定の指定<br>
+      □記憶喪失<br>
+      □後遺症の付与<br>
+      □ステータス変動<br>
+      <font class="maru">♡異性装</font><font class="hosoku"> :だいすき</font><br>
+      <font class="maru">♡性転換</font><font class="hosoku"> :だいすき</font><br>
+      <font class="maru">♡白無垢などの結婚の装いを強制される</font><font class="hosoku"> :だいすき</font><br>
+      </p>
+
+      <div class="check-column">展開</div>
+      <p class="koumoku">
+      <font class="sankaku">△NPC/動物の殺害</font><font class="hosoku"> :人間はいいけど小さい命は無事であってほしい</font><br>
+      □一方的にNPCやPCに悪く思われる<br>
+      □大勢に責められるまたは悪く言われる<br>
+      □NPCやPCからの暴言<br>
+      □NPCやPCからの恨みや過度の執着<br>
+      □裏切られる<br>
+      □RPの無茶ぶり(ここで面白いことを！みたいなやつ)<br>
+      <font class="hosoku">:PLに悪意がないなら平気</font>
+      </p>
+
+      <div class="check-column">PvP</div>
+      <p class="koumoku">
+      □口論などの精神的PvP<br>
+      □戦闘などの肉体的PvP<br>
+      <font class="hosoku"> :PLが平和ならOK</font>
+      </p>
+
+      <div class="check-title">NPCにふりかかる項目</div>
+      <div class="check-column">ロスト系</div>
+      <p class="koumoku">
+      □NPCの確定ロスト<br>
+      □PCの選択肢や出目による死<br>
+      □NPCの自己犠牲<br>
+      □理不尽な目に遭う<br>
+      □NPCの死がハッピーエンドへの道<br>
+      □入れ替わり/成り代わり<br>
+      □実は死んでいる<br>
+      □死にたがり<br>
+      </p>
+
+      <div class="check-column">設定</div>
+      <p class="koumoku">
+      □強すぎるステータス<br>
+      <font class="maru">♡人外</font><font class="hosoku"> :だいすき</font><br>
+      </p>
+
+      <div class="check-column">その他</div>
+      <p class="koumoku">
+      □好感度システム<br>
+      □NPCが活躍する<br>
+      □NPCの掛け合いが多い<br>
+      </p>
+
+      <div class="check-title">描写</div>
+      <p class="koumoku">
+      □R18<br>
+      □R18G<br>
+      □殺人などの犯罪描写<br>
+      □過激ないじめ表現<br>
+      □性行為や痴漢などの性的描写<br>
+      □パワハラ/セクハラ<br>
+      □自殺表現<br>
+      □未成年が酷い目に遭う<br>
+      □未成年の犯罪描写(飲酒喫煙など)<br>
+      <font class="check">■人間以外の動物が酷い目に遭う</font><br>
+      □近親相姦<br>
+      <font class="maru">♡異性装</font><font class="hosoku"> :すき</font><br>
+      <font class="maru">♡性転換</font><font class="hosoku"> :すき</font><br>
+      □NTR<br>
+      <font class="sankaku">△妊娠</font><font class="hosoku"> :強いて言えば</font><br>
+      □薬物<br>
+      <font class="check">■嘔吐</font><br>
+      <font class="check">■排出物/行為</font><br>
+      □倫理観を問うような展開/問題<br>
+      □カニバリズム<br>
+      □架空の病気<br>
+      □実在の病院<br>
+      □精神病<br>
+      □実在の事件<br>
+      □実在の宗教<br>
+      □実在の神話<br>
+      □実際にある神話(ギリシア神話や日本神話など)<br>
+      □戦争<br>
+      □災害<br>
+      □男尊女卑/女尊男卑<br>
+      □ホラー表現<br>
+      <font class="sankaku">△びっくり演出(映像/音)</font><font class="hosoku"> :バンッてやつが少し苦手</font><br>
+      □怒号や罵り合い<br>
+      □悲鳴や泣き声<br>
+      □肌色が多い衣装のキャラクター<br>
+      □多眼や反転目などの人外要素<br>
+      □集合体<br>
+      □胎児<br>
+      <font class="sankaku">△昆虫</font><font class="hosoku"> :リアルじゃなければ平気</font><br>
+      □宇宙/惑星<br>
+      □深海<br>
+      □先端<br>
+      □内臓<br>
+      □人形<br>
+      </p>      
+
+      <div class="check-title">展開</div>
+      <p class="koumoku">
+      □メタフィクション<br>
+      □メリーバッドエンド<br>
+      □夢オチ<br>
+      □世界改変<br>
+      □並行世界<br>
+      □世界滅亡<br>
+      □電脳世界<br>
+      <font class="maru">♡SF/ファンタジー設定</font><font class="hosoku"> :だいすき</font><br>
+      □PLのことNPCが認知していたり物語に組み込まれる<br>
+      <font class="sankaku">△エンディングが1人のPCに委ねられる</font><font class="hosoku"> :PL間で相談させてほしい</font><br>
+      <font class="sankaku">△PCの役割や秘匿の比重に偏りがある</font><font class="hosoku"> :少し気にする</font><br>
+      </p>
+
+      <div class="check-title">その他</div>
+      <p class="koumoku">
+      □オリジナル呪文<br>
+      □オリジナル神話生物<br>
+      □ロスト救済<br>
+      □SAN値回復<br>
+      □ロールプレイ重視<br>
+      □ゾーキング<br>
+      □秘匿シナリオ<br>
+      □うちよそ(恋愛)前提<br>
+      □戦闘が多い<br>
+      □神話生物が出ないまたはクトゥルフ要素が薄い<br>
+      </p>
+      <br>
+      <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #979797;">
+          引用元<br>
+          <ul>細かすぎる地雷チェックシート／インスタント地獄工場 様<br>
+          <a href="https://booth.pm/ja/items/3432975" target="_blank">https://booth.pm/ja/items/3432975</a></ul>
+      </div>
+     </p>
+   </div>
+
+<!-- --------2つ目-------------------------- -->
+    <div class="tab-content content2">
+     <h2>TRPGパラメーター</h2>
+     <p>
+    
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title AA">戦闘</div>
+        <div></div>
+        <div class="left-label AA">苦手</div>
+          <div class="bar level5">
+            <div class="point"></div>
+          </div>
+        <div class="right-label AA">好き・得意</div>
+      </div>
+      <div class="memo">
+        補足：特殊能力やギミックがある戦闘大好き
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title AA">探索</div>
+        <div></div>
+        <div class="left-label AA">苦手</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label AA">好き・得意</div>
+      </div>
+      <div class="memo">
+        補足：RPしながらワイワイ探索するのが好き
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title AA">推理・考察</div>
+        <div></div>
+        <div class="left-label AA">苦手</div>
+          <div class="bar level4">
+            <div class="point"></div>
+          </div>
+        <div class="right-label AA">好き・得意</div>
+      </div>
+      <div class="memo">
+        補足：好きなんだけどINTが2
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title BB">RP傾向</div>
+        <div></div>
+        <div class="left-label BB">あっさり<br>短文</div>
+          <div class="bar level2">
+            <div class="point"></div>
+          </div>
+        <div class="right-label BB">がっつり<br>長回し</div>
+      </div>
+      <div class="memo">
+        補足：短いのをポンポン投げがち
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title BB">キャラメイクの情報量</div>
+        <div></div>
+        <div class="left-label BB">割と最低限</div>
+          <div class="bar level5">
+            <div class="point"></div>
+          </div>
+        <div class="right-label BB">設定が<br>分厚い</div>
+      </div>
+      <div class="memo">
+        補足：可能な範囲内で設定を練るようになってきている
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title BB">GM・他PLからの設定介入</div>
+        <div></div>
+        <div class="left-label BB">あんまり<br>得意じゃない</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label BB">バンバン<br>来てほしい</div>
+      </div>
+      <div class="memo">
+        補足：いつでも捻じ曲げるし、キャラ被りは結構気にする
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title CC">エロ・下ネタ</div>
+        <div></div>
+        <div class="left-label CC">苦手・無理</div>
+          <div class="bar level5">
+            <div class="point"></div>
+          </div>
+        <div class="right-label CC">好き・大歓迎</div>
+      </div>
+      <div class="memo">
+        補足：「えっちじゃないですか？」はよく言う<br>
+        　　　生々しくなければ〇
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title CC">グロ・スプラッタ</div>
+        <div></div>
+        <div class="left-label CC">苦手・無理</div>
+          <div class="bar level4">
+            <div class="point"></div>
+          </div>
+        <div class="right-label CC">好き・大歓迎</div>
+      </div>
+      <div class="memo">
+        補足：生々しくなければ〇<br>
+        　　　血濡れは大好きです
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title CC">同性愛表現</div>
+        <div></div>
+        <div class="left-label CC">苦手・無理</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label CC">好き・大歓迎</div>
+      </div>
+      <div class="memo">
+        補足：ぐへへ
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title DD">アドリブ耐性</div>
+        <div></div>
+        <div class="left-label DD">正直苦手</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label DD">好き・得意</div>
+      </div>
+      <div class="memo">
+        補足：大好き
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title DD">ファンブル耐性</div>
+        <div></div>
+        <div class="left-label DD">動揺する・凹む</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label DD">むしろ美味しい</div>
+      </div>
+      <div class="memo">
+        補足：ぎゃはは！
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title DD">ショック耐性（NPCや子供死亡など）</div>
+        <div></div>
+        <div class="left-label DD">凹んでしまう</div>
+          <div class="bar level4">
+            <div class="point DD"></div>
+          </div>
+        <div class="right-label DD">鬼畜展開<br>大好き</div>
+      </div>
+      <div class="memo">
+        補足：シクシク…はなるけどそういうものだと思えるので〇
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title EE">ギャグ・パロ</div>
+        <div></div>
+        <div class="left-label EE">得意ではない</div>
+          <div class="bar level7">
+            <div class="point"></div>
+          </div>
+        <div class="right-label EE">積極的に<br>ネタに走る</div>
+      </div>
+      <div class="memo">
+        補足：大好きだし、私がよくミームを言ってしまう
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title EE">恋愛RP</div>
+        <div></div>
+        <div class="left-label EE">得意ではない</div>
+          <div class="bar level4">
+            <div class="point"></div>
+          </div>
+        <div class="right-label EE">積極的に<br>くっつける</div>
+      </div>
+      <div class="memo">
+        補足：そもそもタイマンや2PL以外でくっつけようと思わない<br>
+        　　　やってるときはPCにふざけさせているとき
+      </div>
+    </div>
+
+    <div class="param-card">
+      <div class="param-scale">
+        <div></div>
+        <div class="param-title EE">プレイヤーvsプレイヤー</div>
+        <div></div>
+        <div class="left-label EE">できれば<br>避けたい</div>
+          <div class="bar level4">
+            <div class="point"></div>
+          </div>
+        <div class="right-label EE">アリなら<br>遠慮なく</div>
+      </div>
+      <div class="memo">
+        補足：仲良い人となら気を遣いつつ楽しめる<br>
+        　　　人の気持ちが分からない人とはやりたくないです
+      </div>
+    </div>
+
+     </p>
+     <br>
+     <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #979797;">
+        引用元<br>
+        <ul>TRPGパラメーター<br>
+        <a href="https://x.com/Konpekin/status/867761634776719362" target="_blank">https://x.com/Konpekin/status/867761634776719362</a></ul>
+     </div>
+    </div>
+
+  </div>
+</main>
+
+</div>
+
+  <script src="js/menu.js" defer></script>
+</body>
+</html>

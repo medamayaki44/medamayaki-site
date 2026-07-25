@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HONOKA TRPG's</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="src/img/logo.png">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ハンバーガーボタン -->
+  <button class="menu-btn" id="menuBtn">☰</button>
+  
+  <!-- 左サイドバー -->
+  <aside class="sidebar" id="sidebar">
+    <h1 class="site-title">HONOKA TRPG's</h1>
+    <nav>
+      <ul>
+        <a href="index.html">トップ</a>
+        <a href="favorite.html">プロフィール詳細</a>
+        <a href="session-style.html">セッションスタイル</a>
+        <a href="landmine.html">地雷チェック</a>
+        <a href="scenario-played.html">遊んだシナリオ</a>
+        <a href="scenario-desired.html">行きたいシナリオ</a>
+        <!--<a href="scenario-gm.html">GM可能シナリオ</a>-->
+        <a href="pc-list.html">PC一覧</a>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 背景オーバーレイ -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- メイン -->
+  <main class="main">
+
+      <!-- お知らせ -->
+    <section class="news-section">          
+      <div class="news card">
+        <h2>I  a m  H O N O K A</h2>
+        人間のこととTRPGのことを書いておくところです<br>
+        <font color=#da70d6>いつも遊んでくれて＆誘ってくれてありがとう！</font><br>
+      </div>
+    </section>
+
+    <!-- 上段 -->
+    <section class="top-section">
+
+      <!-- プロフィール -->
+      <div class="profile card">
+        <h2>プロフィール</h2>
+        <ul>
+          <li>名前：ほのか</li>
+          <li>成人済み（or5歳or17歳）
+          <li>NL/BL/GL 可</li>
+          <li><strong>楽しいことや面白いことが好き</strong></li>
+          <li>自分をカワウソだと思っているときがある</li>
+          <li>自分をチューリップだと思っているときがある</li>
+          <li>自分を目玉焼きだと思っているときがある</li>
+          <li>自分をキーウィだと思っているときがある</li>
+        </ul>
+      <br>
+      
+      <!-- 外部リンク -->
+      <h3>外部リンク</h3>
+      <div class="links">
+        <table>
+          <tr>
+            <td><a href="https://x.com/honoka_myg33" target="_blank">Twitter</a></td>
+            <td><a href="https://bsky.app/profile/honokawus.bsky.social" target="_blank">Bluesky</a></td>
+            <td><a href="https://mixi.social/@honoka_myg33" target="_blank">mixi2</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://fusetter.com/u/honoka_myg33" target="_blank">fusetter</a></td>
+            <td><a href="https://poipiku.com/1486444/" target="_blank">ポイピク</a></td>
+            <td>(余った)</tr>
+          </tr>
+
+          <tr>
+            <td><a href="https://www.amazon.co.jp/hz/wishlist/ls/3SVT4WKP37GQR?ref_=wl_share" target="_blank">ほしいも</a></td>
+            <td><a href="https://www.mottohomete.net/letters" target="_blank">ほめて箱</a></td>           
+            <td><a href="https://fusetter.com/tw/dxRInEEo" target="_blank">ソシャゲ関係</a></td>
+          </tr>
+          <tr>
+
+          </tr>
+        </table>
+      </div>
+      </div>
+    </section>
+
+    <!-- 依頼文言 -->
+    <section class="request card">
+      <h2>頼み事があるとき</h2>
+        <p>
+          お絵描き関係でお願いしたいことがあるときはTwitter(Xとかいうらしいw)のDMにご連絡ください。相互限定でお受けします。<br>
+          自分の作業でてんやわんやになっている場合がありますので、必ずしもお受けできるわけではありませんが検討はします。
+       </p>
+    </section>
+
+
+    <!-- 誕生日カレンダー -->
+    <section class="calendar card">
+      <h2>探索者 誕生日早見表</h2>
+
+      <!-- JSでここにカレンダーを描画する -->
+      <div id="birthday-calendar">
+        <!-- 仮表示 -->
+        <p>ここに探索者の誕生日カレンダーを表示(予定)</p>
+        <p><font color="#ccc">(未実装)</font></p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="js/menu.js" defer></script>
+</body>
+</html>
