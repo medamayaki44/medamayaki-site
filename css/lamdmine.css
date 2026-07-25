@@ -1,0 +1,237 @@
+.tab-wrap {
+
+  width: 100%;
+
+  min-width: 0;
+}
+
+/* ラジオボタン隠す */
+.tab-wrap input {
+  display: none;
+}
+
+/* タブ */
+.tab {
+  width: 150px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 0;
+
+  background: #b6b6b6;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+
+  background: #b6b6b6;
+  color: white;
+
+  transition: 0.2s;
+}
+
+/* 選択中 */
+#tab1:checked + label,
+#tab2:checked + label {
+  background: white;
+  color: #333;
+}
+
+/* 本体 */
+.tab-content {
+  min-width: 0;
+
+  overflow-wrap: break-word;
+  word-break: break-all;
+
+  display: none;
+  width: 100%;
+  box-sizing: border-box;
+
+
+  background: white;
+  padding: 24px;
+  min-height: 400px;
+
+  border-radius: 0 12px 12px 12px;
+  padding: 24px;
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* 表示切替 */
+#tab1:checked ~ .content1,
+#tab2:checked ~ .content2 {
+  display: block;
+}
+
+/* ----------- 地雷 タイトル ----------- */
+.check-title{
+    width:auto;
+    text-align:left;
+    padding:10px 10px;
+    margin:5px 0px;
+    color: honeydew;
+    background-color:#333;
+
+}
+
+/* ----------- 地雷 カラム ----------- */
+.check-column{
+    width:50%;
+    text-align:left;
+    padding:5px 10px;
+    margin:5px 0px;
+    color: honeydew;
+    background-color:#737373;
+
+}
+
+/* ----------- 地雷 項目 ----------- */
+p.koumoku{
+    line-height:25px;
+    color: #545454;
+}
+
+.hosoku{
+    font-size: 80%;
+    color: rgb(198, 65, 225);
+}
+
+.sankaku{
+    color: #000000;
+}
+
+.maru{
+    color: #217c9acf;
+}
+
+.check{
+    color: crimson;
+    font-weight: 500;
+}
+
+/* ----------- パラメーター ----------- */
+.param-card{
+    margin-bottom:28px;
+}
+
+.param-title{
+    grid-column:2;
+    width:50%;
+    margin:auto;
+    text-align:center;
+    padding:4px 12px;
+    border-radius:8px 8px 0 0;
+
+    font-weight:bold;
+}
+
+.param-title.AA,.left-label.AA,.right-label.AA{
+    background-color:#ffdfc6c0;
+}
+
+.param-title.BB,.left-label.BB,.right-label.BB{
+    background-color:#c0e3e7c0;
+}
+
+.param-title.CC,.left-label.CC,.right-label.CC{
+    background-color:#f0c5c6c0;
+}
+
+.param-title.DD,.left-label.DD,.right-label.DD{
+    background-color:#dac6e6c0;
+}
+
+.param-title.EE,.left-label.EE,.right-label.EE{
+    background-color:#bcf0bfc0;
+}
+
+.param-scale{
+    display:grid;
+    grid-template-columns:130px 1fr 140px;
+    align-items:center;
+    gap:16px;
+}
+
+.left-label,
+.right-label{
+    text-align:center;
+    padding:8px;
+    width:130px;
+    border-radius:4px;
+    flex-shrink:0;
+}
+
+/* ----------- バー ----------- */
+.bar{
+    position:relative;
+    height:30px;
+    background:
+      linear-gradient(#999,#999) center/100% 1px no-repeat,
+
+      repeating-linear-gradient(
+          to right,
+          transparent 0 calc((100% / 6) - 1px),
+          #999 calc((100% / 6) - 1px) calc((100% / 6))
+      );
+}
+
+/* ----------- 縦線 ----------- */
+.bar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    /* 左端 */
+    linear-gradient(#999,#999) left center / 1px no-repeat,
+
+    /* 真ん中5本 */
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc((100% / 6) - 1px),
+      #999 calc((100% / 6) - 1px),
+      #999 calc(100% / 6)
+    ),
+
+    /* 右端 */
+    linear-gradient(#999,#999) right center / 1px 20px no-repeat;
+}
+
+/* ----------- ポインター ----------- */
+.point{
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.point::after{
+    content:"";
+    position:absolute;
+
+    left:50%;
+    top:50%;
+    width:25px;
+    height:25px;
+
+    border-radius:50%;
+    background:rgb(204, 95, 204);
+    transform:translate(-50%,-50%);
+}
+
+.level1 .point{ left:0%; }
+.level2 .point{ left:16.666%; }
+.level3 .point{ left:33.333%; }
+.level4 .point{ left:50%; }
+.level5 .point{ left:66.666%; }
+.level6 .point{ left:83.333%; }
+.level7 .point{ left:100%; }
+
+/* ----------- 補足欄 ----------- */
+.memo{
+    margin-top:10px;
+    font-size:.9rem;
+    color:#666;
+}
