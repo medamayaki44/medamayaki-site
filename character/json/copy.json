@@ -2,6 +2,7 @@
   "id": "040",
   "name": "AA",
   "kana": "BB",
+  "romaji": "CC",
 
   "color": "100, 100, 100",
 
@@ -32,30 +33,35 @@
 
   "personality": [
     {
+      "_comment":"強いが1-弱いが7",
       "name": "正義感",
       "left": "強い",
       "right": "弱い",
       "value": 4
     },
     {
+      "_comment":"強いが1-低いが7",
       "name": "コミュ力",
       "left": "高い",
       "right": "低い",
       "value": 4
     },
     {
+      "_comment":"多いが1-少ないが7",
       "name": "発言量",
       "left": "多い",
       "right": "少ない",
       "value": 4
     },
     {
+      "_comment":"豊かが1-無表情が7",
       "name": "表情筋",
       "left": "豊か",
       "right": "無表情",
       "value": 4
     },
     {
+      "_comment":"上手いが1-下手が7",
       "name": "嘘",
       "left": "上手い",
       "right": "下手",
