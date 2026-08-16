@@ -36,13 +36,13 @@
       "name": "正義感",
       "left": "強い",
       "right": "弱い",
-      "value": 6
+      "value": 5
     },
     {
       "name": "コミュ力",
       "left": "高い",
       "right": "低い",
-      "value": 7
+      "value": 2
     },
     {
       "name": "発言量",
@@ -54,13 +54,13 @@
       "name": "表情筋",
       "left": "豊か",
       "right": "無表情",
-      "value": 5
+      "value": 3
     },
     {
       "name": "嘘",
       "left": "上手い",
       "right": "下手",
-      "value": 2
+      "value": 6
     }
   ],
 
